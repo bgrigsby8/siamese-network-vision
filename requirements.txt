@@ -1,0 +1,7 @@
+packaging
+pillow
+numpy
+tensorflow
+viam-sdk==0.44.0
+
+typing-extensions

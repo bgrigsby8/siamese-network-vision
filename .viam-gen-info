@@ -1,0 +1,12 @@
+{
+  "module_name": "siamese-network",
+  "namespace": "brad-grigsby",
+  "language": "python",
+  "resource_type": "service",
+  "resource_subtype": "vision",
+  "model_name": "siamese-network-vision",
+  "enable_cloud_build": false,
+  "initialize_git": false,
+  "generator_version": "0.1.0",
+  "generated_on": "2025-04-09T21:10:52.537015Z"
+}

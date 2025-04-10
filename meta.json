@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "brad-grigsby:siamese-network",
+  "visibility": "private",
+  "url": "https://github.com/bgrigsby8/siamese-network-vision",
+  "description": "Modular vision service: siamese-network-vision",
+  "models": [
+    {
+      "api": "rdk:service:vision",
+      "model": "brad-grigsby:siamese-network:siamese-network-vision",
+      "short_description": "Vision service for siamese network",
+      "markdown_link": "README.md#model-brad-grigsbysiamese-networksiamese-network-vision"
+    }
+  ],
+  "applications": null,
+  "entrypoint": "./run.sh",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64"
+    ]
+  }
+}
